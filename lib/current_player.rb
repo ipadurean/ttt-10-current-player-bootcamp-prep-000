@@ -1,9 +1,9 @@
 def turn_count(board)
   count = 0
   board.each { |item|
-    if item == "x"
+    if item == "X"
       count += 1
-    elsif item == "o"
+    elsif item == "O"
       count += 1
     else
       count
